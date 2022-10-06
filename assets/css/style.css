@@ -42,10 +42,14 @@ body {
     text-decoration: underline;
 }
 
+/* flexbox operation to wrap projects inside the container*/
+
 .container {
     display: flex;
     flex-wrap: wrap;
 }
+
+/* styling each project so it's showing as individual box */
 
 .project {
     padding: 5px;
@@ -54,23 +58,28 @@ body {
     border-width: 1px;
     margin: 2px 2px;
 }
+
+/* styying the header within each project to give some paddings and colors */
+
 .project header {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
+    padding: 10px;
     background: rgb(139, 0, 132);
     color: #ffffff;
 }
+
+/* when screen is below 992px only dipsplay two projects in a row */
 
 @media screen and (max-width: 992px) {
     .project {
       width: 50%
     }
-  }
+}
 
-  @media screen and (max-width: 768px) {
+/* when screen is below 768px then project are diplay as block vertically */
+
+@media screen and (max-width: 768px) {
     .project {
       width: 100%;
     }
     
-  }
+}
