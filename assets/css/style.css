@@ -42,3 +42,35 @@ body {
     text-decoration: underline;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    padding: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    margin: 2px 2px;
+}
+.project header {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background: rgb(139, 0, 132);
+    color: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+    .project {
+      width: 50%
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .project {
+      width: 100%;
+    }
+    
+  }
