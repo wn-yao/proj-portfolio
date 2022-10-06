@@ -39,9 +39,15 @@ https://stackoverflow.com/
 
 https://calendly.com/d/dnc-wpf-c7s (Tutors!)
 
-## Deployed Application and Screen Shots
+## License
 
+Please refer to MIT License.
 
+## Deployed Application URL and Screen Shots
+
+https://wn-yao.github.io/proj-portfolio/
+
+https://github.com/wn-yao/proj-portfolio/blob/main/assets/images/Screenshot-deployed-page.jpg
 
 
 
