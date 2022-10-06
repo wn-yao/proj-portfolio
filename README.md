@@ -24,6 +24,8 @@ Added glow effect when hover over the project images.
 
 Added links to Contact me list to take visitor to social media accounts. 
 
+Added span tab to in about me paragraph to show case current work.
+
 ## Credits 
 
 https://uwa.bootcampcontent.com/UWA-Bootcamp
@@ -37,6 +39,7 @@ https://stackoverflow.com/
 
 https://calendly.com/d/dnc-wpf-c7s (Tutors!)
 
+## Deployed Application and Screen Shots
 
 
 
