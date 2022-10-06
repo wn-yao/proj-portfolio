@@ -120,12 +120,18 @@ body {
     
 }
 
-
 #contact-me ul li{
     display: inline-block;
     text-decoration: underline;
     font-style: italic;
     font-weight: bold;
     color:royalblue;
+}
+
+span[data-descr] {
+    color:rgb(148, 15, 35);
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
 }
 
