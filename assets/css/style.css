@@ -42,6 +42,32 @@ body {
     text-decoration: underline;
 }
 
+/* styying the header within first project to give some paddings and colors */
+
+.first-project{
+    padding: 10px 10px 10px 0;
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px 4px;
+    background: rgb(141, 136, 139);
+}
+
+.first-project header {
+    padding: 15px;
+    border-radius: 30%;
+    margin-top: -30px;
+    margin-left: 19px;
+    text-align: center;
+    font-weight: bolder;
+    background: rgb(139, 0, 132);
+    color: #ffffff;
+}
+
+/* when hover over the object, the box glows */ 
+
+.first-project:hover, .first-project header {
+    box-shadow: inset 0px 0px 8px rgb(0, 3, 168), 0 0 15px rgba(0, 3, 168);
+}
 /* flexbox operation to wrap projects inside the container*/
 
 .container {
@@ -53,16 +79,26 @@ body {
 
 .project {
     padding: 5px;
-    text-align: center;
     border-style: solid;
     border-width: 1px;
-    margin: 2px 2px;
+    margin: 10px 2px;
+    background: rgb(141, 136, 139);
+}
+
+/* when hover over the object, the box glows */ 
+
+.project:hover, .project header {
+    box-shadow: inset 0px 0px 8px rgb(0, 3, 168), 0 0 15px rgba(0, 3, 168);
 }
 
 /* styying the header within each project to give some paddings and colors */
 
 .project header {
+    margin-top: -30px;
+    border-radius: 30%;
     padding: 10px;
+    text-align: center;
+    font-weight: bold;
     background: rgb(139, 0, 132);
     color: #ffffff;
 }
@@ -83,3 +119,13 @@ body {
     }
     
 }
+
+
+#contact-me ul li{
+    display: inline-block;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    color:royalblue;
+}
+
