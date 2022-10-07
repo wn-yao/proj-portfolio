@@ -1,3 +1,10 @@
+:root {
+    /* variable used late */
+    --dark: black;
+    --light: #ffffff;
+    --navlink-color: #e9967a; 
+}
+
 /* Universal Selector */
 *{
     box-sizing: border-box;
@@ -14,7 +21,7 @@ body {
 
 .title {
     background-color: steelblue;
-    color: #ffffff;    
+    color: var(--light);    
 }
 
 .title h1 {
@@ -37,8 +44,8 @@ body {
 }
 
 .title nav ul li a {
-    background-color:black;
-    color:#ffffff;
+    background-color: var(--dark);
+    color: var(--navlink-color);
     text-decoration: underline;
 }
 
@@ -60,7 +67,7 @@ body {
     text-align: center;
     font-weight: bolder;
     background: rgb(139, 0, 132);
-    color: #ffffff;
+    color: var(--light);
 }
 
 /* when hover over the object, the box glows */ 
@@ -100,7 +107,7 @@ body {
     text-align: center;
     font-weight: bold;
     background: rgb(139, 0, 132);
-    color: #ffffff;
+    color: var(--light);
 }
 
 /* when screen is below 992px only dipsplay two projects in a row */
