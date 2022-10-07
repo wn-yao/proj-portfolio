@@ -138,3 +138,11 @@ span[data-descr] {
 #first-project img {
     max-width: 100%;
 }
+
+#about-me h2 {
+    display: grid;
+    height: 100px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px;
+
+}
