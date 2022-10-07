@@ -135,3 +135,6 @@ span[data-descr] {
     position: relative;
 }
 
+#first-project img {
+    max-width: 100%;
+}
